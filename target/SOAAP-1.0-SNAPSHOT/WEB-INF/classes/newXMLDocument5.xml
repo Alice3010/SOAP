@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Univer
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='file:/Users/macbook/Desktop/labs/JavaApplication7/src/schema_1_1_1.xsd'>
+    <Fakultet>
+        <nameF>ФРЭИ</nameF>
+        <Kafedra>
+            <nameK>ЭМПО ВС</nameK>
+            <Grup>
+                <nameG>ПИМ</nameG>
+                <god>2019-10-10</god>
+                <Student>
+                    <firstname>Паламарь</firstname>
+                    <lastname>Алиса</lastname>
+                    <telefon>3456789655</telefon>
+                    <Predmet>
+                        <nameP>Сеть</nameP>
+                        <ozenka>4</ozenka>
+                    </Predmet>
+                </Student>
+                <Student>
+                    <firstname>Медведев</firstname>
+                    <lastname>Евгений</lastname>
+                    <telefon>4566678676</telefon>
+                    <Predmet>
+                        <nameP>Сеть</nameP>
+                        <ozenka>3</ozenka>
+                    </Predmet>
+                </Student>
+                <Student>
+                    <firstname>Козин</firstname>
+                    <lastname>Олег</lastname>
+                    <telefon>35353534</telefon>
+                    <Predmet>
+                        <nameP>Сеть</nameP>
+                        <ozenka>4</ozenka>
+                    </Predmet>
+                </Student>
+            </Grup>
+        </Kafedra>
+    </Fakultet>
+
+</Univer>

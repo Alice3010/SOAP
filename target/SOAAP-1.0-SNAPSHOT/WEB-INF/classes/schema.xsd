@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           attributeFormDefault="unqualified" >
+    <xs:element name="students" type="Students"/>
+
+    <xs:complexType name="Students">
+        <xs:sequence>
+            <xs:element name="student" maxOccurs="unbounded" type="Student"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Student">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="secondname" type="xs:string"/>
+            <xs:element name="subjects" maxOccurs="unbounded" type="Subjects"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Subjects">
+        <xs:sequence>
+            <xs:element name="subject" maxOccurs="unbounded" type="Subject"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Subject">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="score" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
